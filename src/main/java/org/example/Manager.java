@@ -14,10 +14,6 @@ public class Manager {
         this.numeros.add(numero);
     }
 
-    /**
-     * Suma todos los números en la lista.
-     * @return La suma de los números.
-     */
     public int getSuma() {
         int total = 0;
         for (int numero : this.numeros) {
