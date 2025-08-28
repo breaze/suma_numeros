@@ -19,7 +19,7 @@ public class Manager {
      * @return La suma de los números.
      */
     public int sumarNumeros(){
-        return this.numeros.stream().mapToInt(Integer::intValue).sum();
+        //TODO
     }
 
 
