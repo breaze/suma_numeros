@@ -19,7 +19,11 @@ public class Manager {
      * @return La suma de los números.
      */
     public int sumarNumeros(){
-        //TODO
+        int suma = 0;
+        for (int numero : numeros) {
+            suma += numero;
+        }
+        return suma;
     }
 
 
